@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "build",
+    "lib": ["ES2022", "DOM"],
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "~/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "src/*",
+    "tests/*"],
+  "exclude": ["node_modules"]
+}
