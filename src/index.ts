@@ -19,7 +19,10 @@ export function startWebServer(): Server {
         {
             schema: userSchema,
             rootValue: userSchemaResolvers,
-            logger: new NoStacktraceJsonLogger('expressjs-server', 'user-service')
+            logger: new NoStacktraceJsonLogger('expressjs-server', 'user-service'),
+            contextFunction: (): unknown => {
+                return {}
+            }
         }
     )
     
