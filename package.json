@@ -24,16 +24,16 @@
   "devDependencies": {
     "@types/body-parser": "1.19.5",
     "@types/express": "^5.0.1",
-    "@types/node": "22.15.2",
+    "@types/node": "22.15.3",
     "esbuild": "0.25.3",
-    "oxlint": "0.16.8",
-    "tsx": "4.19.3",
+    "oxlint": "0.16.9",
+    "tsx": "4.19.4",
     "typescript": "5.8.3"
   },
   "dependencies": {
     "@dreamit/graphql-server": "4.13.3",
     "body-parser": "^2.2.0",
     "graphql": "16.11.0",
-    "ultimate-express": "1.4.6"
+    "ultimate-express": "1.4.9"
   }
 }
