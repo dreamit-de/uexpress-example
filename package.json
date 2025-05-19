@@ -23,10 +23,10 @@
   "homepage": "https://github.com/sgohlke/uexpress-example#readme",
   "devDependencies": {
     "@types/body-parser": "1.19.5",
-    "@types/express": "^5.0.1",
-    "@types/node": "22.15.17",
+    "@types/express": "^5.0.2",
+    "@types/node": "22.15.19",
     "esbuild": "0.25.4",
-    "oxlint": "0.16.10",
+    "oxlint": "0.16.11",
     "tsx": "4.19.4",
     "typescript": "5.8.3"
   },
@@ -34,6 +34,6 @@
     "@dreamit/graphql-server": "5.0.0",
     "body-parser": "^2.2.0",
     "graphql": "16.11.0",
-    "ultimate-express": "1.4.9"
+    "ultimate-express": "2.0.1"
   }
 }
